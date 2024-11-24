@@ -1,0 +1,25 @@
+/* Ensure the HTML and body take up the full height */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Customize as needed */
+}
+
+/* Ensure the root div (or #root) takes up the full height */
+#root {
+  height: 100%;
+}
+
+/* Flexbox for full screen layout */
+.min-h-screen {
+  min-height: 100vh; /* Take full height of the viewport */
+  display: flex;
+  flex-direction: column; /* Stack children (header, main, footer) vertically */
+}
+
+.main-content {
+  flex-grow: 1; /* Allow the main content to take up the remaining space */
+}
+
+/* Optionally, add other styles for header, footer, and main if needed */
