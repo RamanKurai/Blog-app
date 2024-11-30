@@ -1,8 +1,41 @@
-# React + Vite
+# Blog App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly platform for sharing ideas, stories, and experiences through blogs. This app allows users to create, read, update, and delete blog posts with ease.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **User Authentication**:
+  - Secure signup and login functionality.
+  - Optional integration with Google and GitHub for social login.
+
+- **Blog Management**:
+  - Create blogs with titles, content, and images.
+  - Edit or delete blogs anytime from the user dashboard.
+
+- **Discover Blogs**:
+  - Explore blogs shared by other users.
+  - Search and filter blogs by categories, tags, or keywords.
+
+- **Responsive Design**:
+  - Optimized for desktop, tablet, and mobile devices.
+
+---
+
+## Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS, React Router
+- **Backend**: Node.js, Express.js
+- **Database**: Firestore/Appwrite
+- **Authentication**: Appwrite/Firebase
+- **State Management**: Redux Toolkit
+
+---
+
+## Installation Guide
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/blog-app.git
+   cd blog-app
