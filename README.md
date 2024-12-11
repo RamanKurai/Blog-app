@@ -26,7 +26,6 @@ A simple and user-friendly platform for sharing ideas, stories, and experiences 
 ## Tech Stack
 
 - **Frontend**: React.js, Tailwind CSS, React Router
-- **Backend**: Node.js, Express.js
 - **Database**: Firestore/Appwrite
 - **Authentication**: Appwrite/Firebase
 - **State Management**: Redux Toolkit
